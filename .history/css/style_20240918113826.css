@@ -1,0 +1,216 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header.blue-background {
+    background-color: #2a598b;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header.blue-background h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    width: 100%;
+
+    list-style: none; /* Remove marcadores de lista */
+    display: flex;
+    background-color: #2a619cce;
+    padding: 5px 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #2a3085;
+}
+
+/* Barra de busca */
+.search-bar {
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+    border-color: #e61212;
+    outline: none;
+}
+
+/* Carrossel */
+.carousel-item img {
+    max-height: 300px;
+    max-width: 200px;
+    margin-left: 450px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+/* Alterar a cor usando filter */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    /* Modifique `invert` e outros valores para ajustar a cor */
+}
+
+/* Seção de Membros */
+section.membership {
+    background-color: #2a598b;
+    padding: 60px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.membership-content {
+    background-color: #fff;
+    border: 1px solid #000000ee;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    max-width: 900px;
+    margin: auto;
+}
+
+.membership-text {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.membership-text h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.membership-image {
+    flex: 1;
+    text-align: center;
+}
+
+.membership-image img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Seção de conselhos */
+.advice-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.advice-text {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.advice-text h2 {
+    color: #0773e7;
+}
+
+.advice-text p {
+    font-size: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.advice-image {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.advice-image img {
+    max-width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+
+/* Rodapé */
+.footer {
+    background-color: #1e6391;
+    padding: 20px 0;
+    color: rgba(247, 7, 7, 0.836);
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-left img {
+    width: 100px;
+}
+
+.footer-center {
+    flex: 1;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-right .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right .social-icons a {
+    margin: 0 10px;
+}
+
+.footer-right .social-icons img {
+    width: 30px;
+    height: 30px;
+}

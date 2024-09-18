@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header.blue-background {
+    background-color: #2368b3ee;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header.blue-background h1 {
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.bg-blue {
+    background-color: #2368b3;
+    color: white;
+    height: 100vh; /* Altura total da tela */
+}
+
+.sidebar {
+    padding: 20px;
+    height: 100%;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.form-section {
+    margin-top: 80px;
+    margin-bottom: 88px;
+    flex: 1;
+    padding: 20px;
+    background-color: #1e63913a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    margin-bottom: 15px;
+}
+
+.footer {
+
+    background-color: #1e6391;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-left img {
+    width: 100px;
+}
+
+.footer-center {
+    flex: 0;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-right .social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right .social-icons a {
+    margin: 0 10px;
+}
+
+.footer-right .social-icons img {
+    width: 30px;
+    height: 30px;
+}
